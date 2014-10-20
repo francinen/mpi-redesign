@@ -1,0 +1,165 @@
+/*------------------DEFAULTS------------------*/
+
+
+h3 {
+    font-family: "qcksndregular";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #141414;
+}
+
+
+/*------------------HOME PAGE------------------*/
+
+.wrapper { 
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    clear: both;
+}
+
+section, 
+aside {
+    float: left;
+    display: inline;
+}
+
+aside {
+    width: 35%;
+    text-align: right;   
+}
+
+section.main {
+    width: 60%;
+    margin-right: 5%;
+}
+
+.hero, .featured-pages {
+    width: 100%;
+}
+
+.hero {
+    height: 400px;
+    padding: 30px;
+    background: url(../images/hero2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.features {
+    height: auto;
+}
+
+.feature {
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 20px 15px 0 15px;
+    background: #f9f9f9;
+    border-right: 1px solid #e5e5e5;   
+}
+
+.feature h3 {
+    font-size: 24px;
+    line-height: 1;
+    padding-bottom: 8px;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+.features:last-child {
+    border-right: none;
+}
+.top,
+.lower {
+    width: 100%;
+    background: #ccc;
+}
+
+.top {
+    margin-bottom: 3%;
+}
+
+.lower {
+    height: 30%;
+}
+
+.hero {
+    position: relative;
+    border-radius: 3px 3px 0 0;
+}
+
+.features li:first-child {
+    border-radius: 0 0 0 3px;
+}
+.features li:last-child {
+    border-radius: 0 0 3px 0;
+}
+
+.hero > h2 {
+    width: 50%;
+    font-family: "qcksndbold";
+    font-size: 60px;
+    /*font-weight: 600;*/
+    color: #f9f9f9;
+    line-height: 0.9;
+    text-transform: uppercase;
+    text-align: right;
+    /*border-top: 5px solid #a5a5a5;*/
+    float: right;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.hero > h2:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -10px;
+    height: 1px;
+    width: 300px;
+    border-top: 5px solid #f9f9f9;
+}
+
+.feature, 
+.profile {
+    box-shadow: 0px 2px 0 #db8300;
+    /*box-shadow: 0px 5px 0 #e5e5e5;*/
+}
+
+.feature:hover,
+.profile:hover {
+    box-shadow: 0px 2px 0 #f29f52;
+} 
+
+.profile {
+    padding: 20px 20px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.profile h3 {
+    font-family: "qcksndbold";
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.profile p {
+    font-size: 20px;
+}
+
+img.grads {
+    width: 100%;
+    margin: 5px 0;
+}
+
+/*------------------PROFILES------------------*/
+.student-profiles h2 {
+
+}

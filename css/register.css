@@ -1,0 +1,297 @@
+
+section {
+	position: relative;
+}
+
+aside {
+	padding-top: 10px;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-family: "qcksndregular";
+	font-size: 30px;
+	font-weight: 600;
+}
+
+section p:not(:first-child) {
+	margin-top: 30px;
+}
+
+.how-to-apply {
+	width: 65%;
+	float: left;
+}
+
+.how-to-apply ol {
+	padding: 10px 10px 0 40px;
+	list-style-type: decimal;
+	font-family: Helvetica;
+	font-weight: 300;
+	font-size: 22px;
+	color: #565656;
+}
+
+.how-to-apply li {
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.max-enroll {
+	float: left;
+	width: 35%;
+	padding: 10px;
+	margin-top: 60px;
+	border-radius: 3px;
+	background: rgba(186,186,186,0.4);
+}
+
+.max-enroll p {
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.max-enroll p:first-child {
+	font-weight: 500;
+}
+.max-enroll em {
+	font-style: italic;
+
+}
+
+form {
+	/*background: rgba(186,186,186,0.4);*/
+	/*background: rgba(249,249,249,0.5);*/
+	background: #f9f9f9;
+	border-radius: 3px;
+	padding: 40px;
+	font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+form label,
+form legend {
+	color: #565656;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+form input,
+form textarea {
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=number] {
+	padding: 10px;
+	min-height: 20px;
+	/*background: #f9f9f9;*/
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	border-bottom: 2px dashed #bababa;
+	 
+}
+
+form input[type=text]:hover,
+form input[type=email]:hover,
+form input[type=number]:hover {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	border-bottom: 2px dashed #db8300;
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=number]:focus {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	box-shadow: none;
+	outline: none;
+	border-bottom: 2px dashed #f29f52;
+}
+
+form textarea {
+	width: 80%;
+	padding: 10px;
+	border: 2px solid #bababa;
+	background: #fff;
+	border-radius: 3px;
+}
+
+form textarea:hover {
+	border-color: #db8300;
+}
+
+form textarea:focus {
+	box-shadow: none;
+	outline: none;
+	border-color: #f29f52;
+}
+
+form > div > div {
+	float: left;
+}
+
+
+div.essay > div {
+	float: none;
+	margin-top: 10px;
+}
+form > div:not(:first-child),
+form > fieldset {
+	margin-top: 50px;
+}
+
+.full-name > div:not(:nth-child(2)) {
+	width: 40%;
+}
+
+.full-name > div:nth-child(2) {
+	width: 20%;
+}
+
+form > div > div:not(:last-child) {
+	padding-right: 40px;
+}
+
+input.first-name, input.last-name {
+	width: 100%;
+}
+
+input.middle-name {
+	width: 100%;
+}
+
+.student-info > div:first-child {
+	width: 30%;
+}
+
+.student-info > div:last-child {
+	width: 40%;
+}
+
+.student-info input {
+	width: 100%;
+}
+
+
+fieldset span {
+	position: relative;
+}
+
+fieldset > div > span > input[type=radio] {
+	opacity: 0;
+}
+
+fieldset > div > span > input[type=radio] + label.choice:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	position: relative;
+	top: 3px;
+	background: #aaa;
+	box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.3), 0px 1px 0px 0px rgba(255,255,255,0.8);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+fieldset > div > span > input[type=radio]:checked + label.choice:before {
+	background: #f29f52;
+	border: 2px solid #f3f3f3;
+}
+
+fieldset > legend {
+	margin-bottom: 15px;
+}
+
+fieldset > div > span {
+	margin-right: 20px;
+}
+
+input.submit {
+	/*background: #fff;*/
+	background: #f29f52; /* Old browsers */
+background: -moz-linear-gradient(top,  #f29f52 0%, #db8300 56%, #db8300 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f29f52), color-stop(56%,#db8300), color-stop(100%,#db8300)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f29f52 0%,#db8300 56%,#db8300 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f29f52 0%,#db8300 56%,#db8300 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f29f52 0%,#db8300 56%,#db8300 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f29f52 0%,#db8300 56%,#db8300 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29f52', endColorstr='#db8300',GradientType=0 ); /* IE6-9 */
+
+	/*box-shadow: 0px 2px 0 #db8300;*/
+	border-top: 1px solid;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-bottom: none;
+	border-color: #e5e5e5;
+	border-radius: 3px;
+	padding: 10px;
+	width: 20%;
+	font-family: "qcksndbold";
+	font-size: 20px;
+	color: #f9f9f9;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+
+input.submit:hover,
+input.submit:focus {
+border: 2px solid #db8300;
+}
+
+i.fa {
+	height: 20px;
+}
+
+.icon-container {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.fa-certificate {
+	color: #bababa;
+	margin: 40px 0;	
+}
+
+.icon {
+	text-align: center;
+	padding: 0 20px;
+	display: inline;
+	position: relative;
+}
+
+.icon:before,
+.icon:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 600%;
+    border-top: 2px solid #bababa;
+}
+
+.icon:before {
+	left: 100%;
+}
+
+.icon:after {
+	right: 100%;
+}
+
+

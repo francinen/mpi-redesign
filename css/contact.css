@@ -1,0 +1,105 @@
+
+
+.hero {
+	position: relative;
+	background: url(../images/ncb.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+}
+
+section {
+	position: relative;
+}
+
+aside {
+	padding-top: 10px;
+}
+
+p, h3 {
+	font-family: Helvetica;
+	color: #565656;
+	font-weight: 300;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+
+h2 {
+	font-family: "qcksndregular";
+	font-size: 30px;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+section {
+	padding-top: 30px;
+}
+
+iframe {
+	float: left;
+}
+
+aside {
+	float: left;
+	width: 40%;
+	padding-left: 30px;
+}
+
+aside span {
+	font-weight: 400;
+}
+
+aside ul li:first-child {
+	margin-bottom: 20px;
+}
+
+i.fa {
+	height: 20px;
+}
+
+.icon-container {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.fa-certificate {
+	color: #bababa;
+	margin: 40px 0;	
+}
+
+.icon {
+	text-align: center;
+	padding: 0 20px;
+	display: inline;
+	position: relative;
+}
+
+.icon:before,
+.icon:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 600%;
+    border-top: 2px solid #bababa;
+}
+
+.icon:before {
+	left: 100%;
+}
+
+.icon:after {
+	right: 100%;
+}
+
+

@@ -1,0 +1,173 @@
+/*h2 {
+	font-family: "qcksndregular";
+	font-size: 28px;
+	font-weight: 300;
+	color: #141414;
+}*/
+
+h2 {
+	font-family: "qcksndregular";
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.hero {
+	position: relative;
+	background: url(../images/grad.jpg) no-repeat left -170px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+}
+
+section {
+	position: relative;
+}
+
+
+p {
+	font-size: 20px;
+}
+
+section > p:first-child {
+	margin: 40px 0;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-size: 22px;
+	font-weight: 500;
+	color: #565656;
+}
+
+h3.name {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.profileHeader h4 {
+	font-size: 16px;
+}
+
+article {
+	/*background: #f9f9f9;*/
+	padding: 30px;
+}
+
+article:nth-child(odd) {
+	background: rgba(249,249,249,0.7);
+}
+
+.profiles {
+	padding-top: 30px;
+	width: 100%;
+	margin: 0 auto;
+}
+.profiles li {
+	width: 25%;
+	margin: 2% 5% 2% 0;
+	float: left;
+	text-align: center;
+}
+
+.profiles li:hover {
+	cursor: pointer;
+}
+
+.profileHeader {
+	width: 100%;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.profileHeader button {
+	float: right;
+}
+
+img {
+	width: 100%;
+}
+
+.profile-info {
+	width: 70%;
+	height: 180px;
+	float: right;
+	margin-right: 10px;	
+}
+
+.profile-info:after {
+	content: "";
+	display: block;
+}
+
+aside.comments {
+	padding-top: 50px;
+}
+
+h4 {
+	font-family: "qcksndregular";
+	font-size: 20px;
+	font-weight: 600;
+	color: #565656;
+}
+
+form {
+	padding: 30px; 
+}
+
+textarea {
+	display: block;
+	width: 80%;
+}
+
+.icon-container {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.fa-certificate {
+	color: #bababa;
+	margin: 80px 0;	
+}
+
+.icon {
+	text-align: center;
+	padding: 0 20px;
+		display: inline;
+	position: relative;
+}
+
+.icon:before,
+.icon:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 600%;
+    border-top: 2px solid #bababa;
+}
+
+.icon:before {
+	left: 100%;
+}
+
+.icon:after {
+	right: 100%;
+}
+
+
+.fa-angle-down {
+	margin-bottom: 80px;
+}
+
+.share {
+	padding-top: 30px
+
+}
+
+/*article {
+	border-bottom: 1px dashed #848484;
+}*/
+

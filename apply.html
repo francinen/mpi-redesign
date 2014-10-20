@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MPI: Apply</title>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/apply.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<style>
+	
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<div class="header-wrapper clearfix">
+			<div class="program clearfix">
+				<a href="index.html"><h1 class="mpi-2">MPI</h1>
+					<h1 class="mpi">MPI</h1>
+					<h1 class="mpi-full">Media 			
+					<span class="and-the">and the</span> Public Interest</h1></a>
+			</div>
+			
+			<nav>			
+				<ul class="main-nav">
+					<li class="home"><a href="index.html">Home</a></li>
+					<li class="about clearfix"><a href="about.html">About &#9662;</a>
+						<ul class="sub-nav">
+							<li><a href="about.html">The Program</a></li>
+							<li><a href="courses.html">Courses</a></li>
+							<li><a href="experiential.html">Beyond the classroom</a></li>
+						</ul>
+					</li>
+					<li class="people"><a href="faculty.html">People &#9662;</a>
+						<ul class="sub-nav">
+							<li><a href="faculty.html">Faculty</a></li>
+							<li><a href="profiles.html">Student Profiles</a></li>
+						</ul>
+					</li>
+					<li class="contact"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="wrapper">
+
+		<section class="clearfix">	 
+			<h2>Apply</h2>
+			<ol class="requirements">
+				<li class="requirement">Students must first be admitted to the first year of the Media, Information and Technoculture (MIT) program</li>
+				<li class="requirement">Completion of all first-year requirements with no failures</li>
+				<li class="requirement">An average of at least 72% in 4.0 principal courses, with no mark in any principal course below 60%</li>
+				<li class="requirement">A minimum grade of 70% in each of MIT 1200F/G, 1500A/B and 1700F/G.</li>
+			</ol>
+		</section>
+			<!-- <i class="fa fa-angle-down fa-4x"></i>	 -->		
+		<div class="icon-container">
+			<div class="icon">
+				<i class="fa fa-certificate fa-lg"></i>
+			</div>
+		</div>
+
+		<form class="mpi-application" autocomplete="off" name="mpi-application">
+			<label for="firstname">First Name</label><input type="text" required="true"  class="fullname" name="firstname">
+			<label for="midname">Middle Name</label><input type="text" class="fullname" name="midname">
+			<label for="lastname">Last Name</label><input type="text" required="true" class="fullname" name="lastname">
+			<label for="studentnum">Student Number</label><input type="number" required="true" maxlength="9" class="studentnum" name="studentnum">
+			<label for="year">Year</label>
+			<select name="year" id="year">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5+</option>
+			</select>>
+			<h4>Are you currently enrolled as a first-year Media, Information &amp; Technoculture (MIT) student?</h4>
+			<label for="enrolled-yes">Yes</label>
+			<input type="radio" name="enrolled" value="enrolled-yes">
+			<label for="enrolled-no">No</label>
+			<input type="radio" name="enrolled-no" value="enrolled-yes">
+			<h4>Have you completed or are expected to complete all first-year MIT requirements?</h4>
+			<label for="completed-yes">Yes</label>
+			<input type="radio" name="completed" value="enrolled-yes">
+			<label for="completed-no">No</label>
+			<input type="radio" name="completed" value="completed-no">
+
+			<h4>Please input any finalized grades for the following courses:</h4>
+			<label for="">MIT 1200 F/G</label>
+			<input type="number" maxlength="6" class="grade" name="grade-1200">
+			<label for="">MIT 1500 F/G</label>
+			<input type="number" maxlength="6" class="grade" name="grade-1500">
+			<label for="">MIT 1700 F/G</label>
+			<input type="number" maxlength="6" class="grade" name="grade-1700">
+
+			<h4>Why are you applying to the MPI Module? (500-800 words)</h4>
+			<textarea name="essay" id="essay" cols="30" rows="10"></textarea>
+
+			<h4>Describe any volunteer, extracurricular, or work experiences that are relevant to the program</h4>
+			<textarea name="essay" id="essay" cols="30" rows="10"></textarea>
+
+			<h4>What do you expect to learn as a MPI student?</h4>
+			<textarea name="essay" id="essay" cols="30" rows="10"></textarea>
+
+			<input type="submit">
+		</form>
+
+	</div><!-- /.outer-wrapper -->
+
+
+<footer>&copy; Francine Navarro, 2014</footer>
+</body>
+</html>
